@@ -3,3 +3,22 @@ body {
     color: #464646;
     background-color: #FFFFFF;
 }
+
+.titulo {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.botao-estilo_01 {
+    color: #2A7AE4;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 1rem 0.75rem;
+}
+
+.botao-estilo_02 {
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 1rem 0.75rem;
+}
