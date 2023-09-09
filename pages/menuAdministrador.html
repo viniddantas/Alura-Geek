@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek - Login</title>
+    <title>Alura Geek - Administrador</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,7 +11,8 @@
 
     <link href="../assets/css/reset.css" rel="stylesheet">
     <link href="../assets/css/base.css" rel="stylesheet">
-    <link href="../assets/css/login.css" rel="stylesheet">
+    <link href="../assets/css/header-footer.css" rel="stylesheet">
+    <link href="../assets/css/menuAdministrador.css" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
@@ -20,23 +21,44 @@
             <img src="../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
         </div>
     </header>
-
     <main>
-        <section class="login container">
-            <div class="login__container">
-                <h2 class="login__titulo titulo">Iniciar Sessão</h2>
-                <form class="login__formulario" action="">
-                    <div>
-                        <input class="login__email" type="text" placeholder="Escreva seu email">
-                        <span></span>
+        <section class="produtos container">
+            <h2 class="produtos__titulo titulo">Todos os produtos</h2>
+            <a class="produtos__botao--adicionar botao-estilo_02" href="./novoProduto.html">Adicionar produto</a>
+            <ul class="produtos__lista">
+                <li class="produtos__item">
+                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-01.png" alt="">
+                    <div class="produto__informacoes">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <h3 class="produto__preco">R$ 60,00</h3>
+                        <p class="produto__codigo">#1111111</p>
+                    </div>  
+                </li>
+                <li class="produtos__item">
+                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-02.png" alt="">
+                    <div class="produto__informacoes">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <h3 class="produto__preco">R$ 60,00</h3>
+                        <p class="produto__codigo">#1111111</p>
                     </div>
-                    <div>
-                        <input class="login__senha" type="text" placeholder="Escreva sua senha">
-                        <span></span>
+                </li>
+                <li class="produtos__item">
+                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-03.png" alt="">
+                    <div class="produto__informacoes">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <h3 class="produto__preco">R$ 60,00</h3>
+                        <p class="produto__codigo">#1111111</p>
                     </div>
-                    <input class="login__entrar botao-estilo_02" type="submit" value="Entrar">
-                </form>
-            </div>
+                </li>
+                <li class="produtos__item">
+                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-04.png" alt="">
+                    <div class="produto__informacoes">
+                        <p class="produto__nome">Produto XYZ</p>
+                        <h3 class="produto__preco">R$ 60,00</h3>
+                        <p class="produto__codigo">#1111111</p>
+                    </div>
+                </li>
+            </ul>
         </section>
     </main>
 

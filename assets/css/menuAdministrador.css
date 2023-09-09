@@ -1,0 +1,31 @@
+.produtos__botao--adicionar {
+    display: inline-block;
+    margin: 1rem 0;
+}
+
+/*Produtos*/
+.produtos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.produto__imagem {
+    width: calc((100vw - 3rem)/2);  
+}
+.produto__informacoes {
+    line-height: 1.375rem;
+}
+.produto__nome{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.produto__preco {
+    font-weight: 700;
+}
+.produto__link {
+    color: #2A7AE4;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: none;
+}
