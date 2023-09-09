@@ -84,3 +84,50 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+/*Footer*/
+.rodape{
+    background: #EAF2FD;
+}
+.rodape__sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rodape__imagem{
+    width: 50vw;
+}
+.rodape__lista{
+    text-align: center;
+    line-height: 2rem;
+}
+.lista__item {
+    font-weight: 500;
+}
+
+.formulario__input, .formulario__textarea{
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.75rem 0;
+    width: 100%;
+    padding: 1rem;
+}
+.formulario__submit{
+    border: none;
+}
+
+/*Desenvolvedor*/
+.rodape__desenvolvedor {
+    background-color: #FFFFFF;
+    text-align: center;
+    font-weight: 500;
+}
+.desenvolvedor__nome, .desenvolvedor__ano{
+    font-weight: 600;
+}
+.desenvolvedor__nome {
+    padding-bottom: 1rem;
+}

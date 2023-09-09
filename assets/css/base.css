@@ -2,6 +2,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #464646;
     background-color: #FFFFFF;
+    
 }
   
 .container {
@@ -17,12 +18,14 @@ body {
     color: #2A7AE4;
     text-decoration: none;
     border: 1px solid;
-    padding: 1rem 0.75rem;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
 }
 
 .botao-estilo_02 {
     background-color: #2A7AE4;
     color: #FFFFFF;
     text-decoration: none;
-    padding: 1rem 0.75rem;
+    padding: 0.75rem 1rem;
+    font-weight: 600;   
 }
