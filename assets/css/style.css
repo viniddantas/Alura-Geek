@@ -97,6 +97,9 @@
 .rodape__imagem{
     width: 50vw;
 }
+.contato__titulo{
+    font-size: 1rem;
+}
 .rodape__lista{
     text-align: center;
     line-height: 2rem;
