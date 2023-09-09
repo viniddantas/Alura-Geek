@@ -3,6 +3,10 @@ body {
     color: #464646;
     background-color: #FFFFFF;
 }
+  
+.container {
+    padding: 1rem;
+}
 
 .titulo {
     font-size: 1.375rem;
