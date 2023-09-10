@@ -1,0 +1,62 @@
+.detalhes__imagem {
+    width: 100vw;
+}
+.detalhes__nome, .detalhes__preco{
+    margin-bottom: 1rem;
+}
+.detalhes__nome {
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+.detalhes__preco {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/*Produtos*/
+.produtos-similiares__titulo {
+    margin-bottom: 1rem;
+}
+.produtos__categoria{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;  
+    margin-bottom: 1rem;
+}
+.categoria__ver-tudo {
+    align-items: center;
+    color: #2A7AE4;
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.categoria__ver-tudo::after {
+    content: url(./../img/icones/seta-direita.svg);
+    padding-left: 0.2rem
+}
+.produtos__lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.produto__imagem {
+    width: calc((100vw - 3rem)/2);  
+}
+.produto__informacoes {
+    line-height: 1.375rem;
+}
+.produto__nome{
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.produto__preco {
+    font-weight: 700;
+}
+.produto__link {
+    color: #2A7AE4;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-decoration: none;
+}
