@@ -3,5 +3,16 @@
 }
 
 .formulario__botao-adicionar {
+    font-weight: 400;
     width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .novo-produto{
+        margin: 0 auto;
+        width: 50vw;
+    }
+    .formulario__input, .formulario__textarea {
+        width: 50vw;
+    }
 }

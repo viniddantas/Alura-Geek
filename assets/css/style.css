@@ -1,42 +1,33 @@
-/*Cabeçalho*/
-.cabecalho__container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
-}
-.cabecalho__botao-login {
-    flex: 0 1 133px;
-    margin: 0 1rem;
-    text-align: center;
-}
-
 /*Main*/
 /*Banner*/
 .banner {
     position: relative;
 }
 .banner__imagem{
-    width: 100%;
+    background-image: url(../img/banner-image.png);
+    background-position: center;
+    height: 192px;
+    background-size: cover;
 }
 .banner__informacoes {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    height: 50%;
     justify-content: space-around;
     margin-left: 1rem;
     position: absolute;
-    top: 40%;
+    bottom: 10%;
 }
 .banner__titulo {
     color: #FFFFFF;
     font-size: 1.375rem;
+    margin-bottom: 1rem;
 }
 .banner__paragrafo {
     color: #FFFFFF;
     font-size: 0.875rem;
     font-weight: 600;
+    margin-bottom: 1rem;
 }
 
 /*Produtos*/
@@ -84,49 +75,53 @@
     text-decoration: none;
 }
 
-/*Footer*/
-.rodape{
-    background: #EAF2FD;
-}
-.rodape__sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.rodape__imagem{
-    width: 50vw;
-}
-.contato__titulo{
-    font-size: 1rem;
-}
-.rodape__lista{
-    text-align: center;
-    line-height: 2rem;
-}
-.lista__item {
-    font-weight: 500;
+@media screen and (min-width: 768px) {
+    /*Banner*/
+    .banner__imagem {
+        height: 352px;
+    }
+    .banner__informacoes {
+        margin-left: 2rem;
+    }
+    .banner__titulo {
+        font-size: 3.25rem;
+    }
+    .banner__paragrafo {
+        font-size: 1.375rem;
+    }
+
+    /*Produtos*/
+    .produtos__lista{
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .produto__imagem {
+        width: calc((100vw - 7rem)/4); 
+    }
+    .categoria__ver-tudo {
+        font-size: 1rem;
+    }
 }
 
-.formulario__input, .formulario__textarea{
-    border: none;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0.75rem 0;
-    width: 100%;
-    padding: 1rem;
-}
+@media screen and (min-width: 1024px) {
+    /*Banner*/
+    .banner__imagem {
+        height: 392px;
+    }
+    .banner__informacoes {
+        margin-left: 6rem;
+    }
 
-/*Desenvolvedor*/
-.rodape__desenvolvedor {
-    background-color: #FFFFFF;
-    text-align: center;
-    font-weight: 500;
-}
-.desenvolvedor__nome, .desenvolvedor__ano{
-    font-weight: 600;
-}
-.desenvolvedor__nome {
-    padding-bottom: 1rem;
+    /*Produtos*/
+    .produtos__lista{
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .produto__imagem {
+        width: calc((100vw - 15rem)/6); 
+    }
+    .categoria__ver-tudo {
+        font-size: 1rem;
+    }
 }

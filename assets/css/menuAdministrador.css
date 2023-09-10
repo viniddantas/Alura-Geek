@@ -29,3 +29,42 @@
     font-weight: 700;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    /*Cabeçalho*/
+    .cabecalho__container {
+        justify-content: flex-start;
+    }
+
+    /*Produtos*/
+    .produtos__lista{
+        flex-wrap: nowrap;
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .produto__imagem {
+        width: calc((100vw - 7rem)/4); 
+    }
+    .categoria__ver-tudo {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*Produtos*/
+    .produtos__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .produtos__lista{
+        gap: 1rem;
+        justify-content: space-between;
+    }
+    .produto__imagem {
+        width: calc((100vw - 15rem)/6); 
+    }
+    .categoria__ver-tudo {
+        font-size: 1rem;
+    }
+}

@@ -10,6 +10,10 @@
     margin: 0 1rem;
     text-align: center;
 }
+.pesquisa__input {
+    display: none;
+    outline: none;
+}
 
 /*Footer*/
 .rodape{
@@ -56,4 +60,82 @@
 }
 .desenvolvedor__nome {
     padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {  
+    /*Cabeçalho*/
+    .cabecalho__container {
+        margin: 1rem 2rem;
+    }
+    .cabecalho__logo {
+        margin-right: 1rem;
+    }
+    .cabecalho__botao-login {
+        order: 1;
+    }
+    .cabecalho__pesquisa {
+        display: flex;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 0.3;
+        background-color: #F5F5F5;
+    }
+    .pesquisa__input {
+        display: block;
+        font-family: 'Raleway', sans-serif;
+        box-sizing: content-box;
+        border: none;
+        padding: 1rem;
+        border-radius: 20px;
+        width: 100%;
+        background-color: #F5F5F5;
+        font-weight: 400;
+    }
+    .pesquisa__icone {
+        padding: 0 1rem 0 1rem;
+    }
+
+    /*Footer*/
+    .rodape__container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .rodape__sobre {
+        align-items: flex-start;
+    }
+    .rodape__imagem{
+        width: -webkit-fill-available
+    }
+    .rodape__lista{
+        text-align: start;
+    }
+    .formulario__input, .formulario__textarea{
+        margin: 0.75rem 0;
+        width: 60vw;
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*Cabeçalho*/
+    .cabecalho__container {
+        margin: 1rem 6rem;
+    }
+
+    /*Footer*/
+    .rodape__sobre {    
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+    }
+    .rodape__imagem{
+        width: 176px;
+    }
+    .rodape__contato {
+        width: 50%;
+    }
+    .formulario__input, .formulario__textarea{
+        width: -webkit-fill-available;
+    }
 }

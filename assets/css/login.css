@@ -1,11 +1,3 @@
-/*Cabeçalho*/
-.cabecalho__container {
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    margin: 1rem;
-}
-
 /*Main*/
 .login {
     background-color: #F5F5F5;
@@ -39,52 +31,21 @@
     border: none;
 }
 
-/*Footer*/
-.rodape{
-    background: #EAF2FD;
-}
-.rodape__sobre {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.rodape__imagem{
-    width: 50vw;
-}
-.contato__titulo{
-    font-size: 1rem;
-}
-.rodape__lista{
-    text-align: center;
-    line-height: 2rem;
-}
-.lista__item {
-    font-weight: 500;
+@media screen and (min-width: 768px) {
+    /*Cabeçalho*/
+    .cabecalho__container {
+        justify-content: flex-start;
+    }
+
+    /*Main*/
+    .login__email, .login__senha{
+        width: 50vw
+    }
 }
 
-.formulario__input, .formulario__textarea{
-    border: none;
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0.75rem 0;
-    width: 100%;
-    padding: 1rem;
-}
-.formulario__submit{
-    border: none;
-}
-
-/*Desenvolvedor*/
-.rodape__desenvolvedor {
-    background-color: #FFFFFF;
-    text-align: center;
-    font-weight: 500;
-}
-.desenvolvedor__nome, .desenvolvedor__ano{
-    font-weight: 600;
-}
-.desenvolvedor__nome {
-    padding-bottom: 1rem;
+@media screen and (min-width: 1024px) {
+    /*Main*/
+    .login__email, .login__senha{
+        width: calc(30vw)
+    }
 }

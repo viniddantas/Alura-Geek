@@ -11,13 +11,18 @@
 
     <link href="../assets/css/reset.css" rel="stylesheet">
     <link href="../assets/css/base.css" rel="stylesheet">
+    <link href="../assets/css/header-footer.css" rel="stylesheet">
     <link href="../assets/css/login.css" rel="stylesheet">
+    
 </head>
 <body>
     <header class="cabecalho">
         <div class="cabecalho__container">
-            <a href="./../index.html"><img src="../assets/img/Logo.svg" alt="Logo do Alura Geek"></a>
-            <img src="../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+            <a class="cabecalho__logo" href="./../index.html"><img src="../assets/img/Logo.svg" alt="Logo do Alura Geek"></a>
+            <div class="cabecalho__pesquisa">
+                <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?">
+                <img class="pesquisa__icone" src="./../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+            </div>  
         </div>
     </header>
 
@@ -41,31 +46,33 @@
     </main>
 
     <footer class="rodape">
-        <section class="rodape__sobre container">
-            <img class="rodape__imagem" src="../assets/img/Logo.svg" alt="Logo da Alura Geek">
-            <ul class="rodape__lista">
-                <li class="lista__item">Quem somos nós</li>
-                <li class="lista__item">Política de privacidade</li>
-                <li class="lista__item">Programa fidelidade</li>
-                <li class="lista__item">Nossas lojas</li>
-                <li class="lista__item">Quero ser franqueado</li>
-                <li class="lista__item">Anuncie aqui</li>
-            </ul>
-        </section>
-        <section class="rodape__contato container">
-            <h2 class="contato__titulo titulo">Fale conosco</h2>
-            <form class="contato__formulario" action="">
-                <div>
-                    <input class="formulario__input" type="text" placeholder="Nome">
-                    <span></span>
-                </div>
-                <div>
-                    <textarea class="formulario__textarea" type="text" placeholder="Escreva sua mensagem"></textarea>
-                    <span></span>
-                </div>
-                <input class="formulario__submit botao-estilo_02" type="submit" value="Enviar mensagem">
-            </form>
-        </section>
+        <div class="rodape__container container">
+            <section class="rodape__sobre">
+                <img class="rodape__imagem" src="./../assets/img/Logo.svg" alt="Logo da Alura Geek">
+                <ul class="rodape__lista">
+                    <li class="lista__item">Quem somos nós</li>
+                    <li class="lista__item">Política de privacidade</li>
+                    <li class="lista__item">Programa fidelidade</li>
+                    <li class="lista__item">Nossas lojas</li>
+                    <li class="lista__item">Quero ser franqueado</li>
+                    <li class="lista__item">Anuncie aqui</li>
+                </ul>
+            </section>
+            <section class="rodape__contato">
+                <h2 class="contato__titulo titulo">Fale conosco</h2>
+                <form class="contato__formulario" action="">
+                    <div>
+                        <input class="formulario__input" type="text" placeholder="Nome">
+                        <span></span>
+                    </div>
+                    <div>
+                        <textarea class="formulario__textarea" type="text" placeholder="Escreva sua mensagem"></textarea>
+                        <span></span>
+                    </div>
+                    <input class="formulario__submit botao-estilo_02" type="submit" value="Enviar mensagem">
+                </form>
+            </section>
+        </div>
         <section class="rodape__desenvolvedor container">
             <p class="desenvolvedor__nome">Desenvolvido por Vinícius Domingues Dantas</p>
             <p class="desenvolvedor__ano">2023</p>
