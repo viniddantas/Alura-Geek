@@ -3,7 +3,11 @@
     align-items: center;
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+
+    max-width: 1130px;
+    margin: 0 auto;
+    
+    padding: 1rem;
 }
 .cabecalho__botao-login {
     flex: 0 1 133px;
@@ -54,6 +58,7 @@
     background-color: #FFFFFF;
     text-align: center;
     font-weight: 500;
+    padding: 1rem;
 }
 .desenvolvedor__nome, .desenvolvedor__ano{
     font-weight: 600;
@@ -64,9 +69,6 @@
 
 @media screen and (min-width: 768px) {  
     /*Cabeçalho*/
-    .cabecalho__container {
-        margin: 1rem 2rem;
-    }
     .cabecalho__logo {
         margin-right: 1rem;
     }
@@ -102,7 +104,7 @@
         justify-content: space-between;
     }
     .rodape__sobre {
-        align-items: flex-start;
+        align-items: center;
     }
     .rodape__imagem{
         width: -webkit-fill-available
@@ -118,12 +120,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-    /*Cabeçalho*/
-    .cabecalho__container {
-        margin: 1rem 6rem;
-    }
-
     /*Footer*/
+    .rodape {
+        width: 100%;
+        margin: 0 auto;
+    }
     .rodape__sobre {    
         flex-direction: row;
         width: 50%;

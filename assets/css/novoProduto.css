@@ -12,7 +12,4 @@
         margin: 0 auto;
         width: 50vw;
     }
-    .formulario__input, .formulario__textarea {
-        width: 50vw;
-    }
 }

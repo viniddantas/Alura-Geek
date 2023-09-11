@@ -43,7 +43,7 @@
         justify-content: space-between;
     }
     .produto__imagem {
-        width: calc((100vw - 7rem)/4); 
+        width: 100%
     }
     .categoria__ver-tudo {
         font-size: 1rem;
@@ -62,7 +62,7 @@
         justify-content: space-between;
     }
     .produto__imagem {
-        width: calc((100vw - 15rem)/6); 
+        width: 100%;
     }
     .categoria__ver-tudo {
         font-size: 1rem;

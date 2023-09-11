@@ -1,8 +1,11 @@
 .detalhes__imagem {
-    width: 100vw;
+    display: block;
+    max-width: 360px;
+    width: 100%;
+    margin: auto;
 }
 .detalhes__container {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 .detalhes__nome, .detalhes__preco{
     margin-bottom: 1rem;
@@ -64,6 +67,8 @@
     text-decoration: none;
 }
 
+
+
 @media screen and (min-width: 768px) {
     .cabecalho__container {
         justify-content: flex-start;
@@ -87,7 +92,7 @@
         justify-content: space-between;
     }
     .produto__imagem {
-        width: calc((100vw - 7rem)/4); 
+        width: 100%;
     }
     .categoria__ver-tudo {
         font-size: 1rem;
@@ -95,9 +100,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .detalhes {
-        padding: 1rem 6rem;
-    }
     .detalhes__container {
         margin-left: 1rem;
         width: 70vw;
@@ -115,7 +117,7 @@
         justify-content: space-between;
     }
     .produto__imagem {
-        width: calc((100vw - 15rem)/6); 
+        width: 100%
     }
     .categoria__ver-tudo {
         font-size: 1rem;
