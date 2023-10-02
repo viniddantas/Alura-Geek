@@ -10,9 +10,22 @@
     gap: 1rem;
     justify-content: space-between;
 }
-.produto__imagem {
-    width: calc((100vw - 3rem)/2);  
+.produto__apresentacao {
+    position: relative;
 }
+.produto__imagem {
+    width: calc((100vw - 3rem)/2);
+}
+.produto__alterar {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.produto__alterar {
+    display: flex;
+    gap: 1rem;
+}
+
 .produto__informacoes {
     line-height: 1.375rem;
 }
