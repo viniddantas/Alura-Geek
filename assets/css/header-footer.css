@@ -33,6 +33,7 @@
 }
 .contato__titulo{
     font-size: 1rem;
+    padding-bottom: 0.5rem;
 }
 .rodape__lista{
     text-align: center;
@@ -42,16 +43,38 @@
     font-weight: 500;
 }
 
-.formulario__input, .formulario__textarea{
+.formulario__nome, .formulario__mensagem{
     border: none;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 400;
-    margin: 0.75rem 0;
+    margin: 0.2rem 0;
     width: 100%;
     padding: 1rem;
 }
+
+.formulario__erro {
+    color: #FF0000;
+    display: block;
+    padding: 0.5rem 0;
+}
+
+.formulario__submit-habilitado {
+    background-color: #2A7AE4;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    
+}
+
+.formulario__submit-desabilitado {
+    border: 0px;
+    background-color: #2a7be44f;
+    color: #ffffff;
+    margin-top: 0.5rem;
+    cursor: default;
+}
+
 
 /*Desenvolvedor*/
 .rodape__desenvolvedor {

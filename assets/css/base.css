@@ -28,6 +28,7 @@ main {
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    
 }
 
 .botao-estilo_02 {
@@ -40,7 +41,13 @@ main {
     border: none;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    
+    cursor: pointer;
+}
+
+.formulario__erro {
+    color: #FF0000;
+    display: block;
+    padding: 0.5rem 0;
 }
 
 @media screen and (min-width: 768px) {

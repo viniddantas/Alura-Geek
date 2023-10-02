@@ -30,16 +30,33 @@
         <section class="login container">
             <div class="login__container">
                 <h2 class="login__titulo titulo">Iniciar Sessão</h2>
-                <form class="login__formulario" action="">
+                <form class="login__formulario" action="" data-form-login>
                     <div>
-                        <input class="login__email" type="text" placeholder="Escreva seu email">
-                        <span></span>
+                        <input 
+                            name="email"
+                            class="login__email" 
+                            type="email" 
+                            placeholder="Escreva seu email" 
+                            minlength="4"
+                            required
+                            data-email
+                        >
+                        <span class="formulario__erro"></span>
                     </div>
                     <div>
-                        <input class="login__senha" type="text" placeholder="Escreva sua senha">
-                        <span></span>
+                        <input 
+                            name="senha"
+                            class="login__senha" 
+                            type="password" 
+                            placeholder="Escreva sua senha" 
+                            minlength="4"
+                            required
+                            data-senha
+                        >
+                        <span class="formulario__erro"></span>
                     </div>
-                    <input class="login__entrar botao-estilo_02" type="submit" value="Entrar">
+                    <input class="login__entrar botao-estilo_02" type="submit" value="Entrar" data-entrar>
+                    <span class="formulario__erro" data-login-invalido></span>
                 </form>
             </div>
         </section>
@@ -62,14 +79,30 @@
                 <h2 class="contato__titulo titulo">Fale conosco</h2>
                 <form class="contato__formulario" action="">
                     <div>
-                        <input class="formulario__input" type="text" placeholder="Nome">
-                        <span></span>
+                        <input 
+                            name="nome"
+                            class="formulario__nome" 
+                            type="text" 
+                            placeholder="Nome" 
+                            minlength="3"
+                            maxlength="40"
+                            required
+                        >
+                        <span class="formulario__erro"></span>
                     </div>
                     <div>
-                        <textarea class="formulario__textarea" type="text" placeholder="Escreva sua mensagem"></textarea>
-                        <span></span>
+                        <textarea 
+                            name="mensagem"
+                            class="formulario__mensagem" 
+                            type="text" 
+                            placeholder="Escreva sua mensagem" 
+                            minlength="10"
+                            maxlength="120"
+                            required
+                        ></textarea>
+                        <span class="formulario__erro"></span>
                     </div>
-                    <input class="formulario__submit botao-estilo_02" type="submit" value="Enviar mensagem">
+                    <input class="botao-estilo_02" type="submit" value="Enviar mensagem" data-enviar-mensagem>
                 </form>
             </section>
         </div>
@@ -78,5 +111,8 @@
             <p class="desenvolvedor__ano">2023</p>
         </section>
     </footer>
+
+    <script src="./../js/validaFormulario.js"></script>
+    <script src="./../js/validaLogin.js"></script>
 </body>
 </html>
