@@ -50,6 +50,17 @@ main {
     padding: 0.5rem 0;
 }
 
+input, textarea {
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 1rem;
+}
+
+
 @media screen and (min-width: 768px) {
     .container {
         padding: 2rem;

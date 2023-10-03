@@ -2,6 +2,10 @@
     background: #F5F5F5;
 }
 
+.novo-produto__titulo {
+    padding-bottom: 1rem;
+}
+
 .formulario__botao-adicionar {
     font-weight: 400;
     width: 100%;

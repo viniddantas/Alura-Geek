@@ -30,7 +30,7 @@
         <section class="login container">
             <div class="login__container">
                 <h2 class="login__titulo titulo">Iniciar Sessão</h2>
-                <form class="login__formulario" action="" data-form-login>
+                <form class="login__formulario" data-form-login>
                     <div>
                         <input 
                             name="email"
@@ -40,6 +40,7 @@
                             minlength="4"
                             required
                             data-email
+                            data-form-input
                         >
                         <span class="formulario__erro"></span>
                     </div>
@@ -52,6 +53,7 @@
                             minlength="4"
                             required
                             data-senha
+                            data-form-input
                         >
                         <span class="formulario__erro"></span>
                     </div>
@@ -77,7 +79,7 @@
             </section>
             <section class="rodape__contato">
                 <h2 class="contato__titulo titulo">Fale conosco</h2>
-                <form class="contato__formulario" action="">
+                <form class="contato__formulario">
                     <div>
                         <input 
                             name="nome"
@@ -87,6 +89,7 @@
                             minlength="3"
                             maxlength="40"
                             required
+                            data-form-input
                         >
                         <span class="formulario__erro"></span>
                     </div>
@@ -99,6 +102,7 @@
                             minlength="10"
                             maxlength="120"
                             required
+                            data-form-input
                         ></textarea>
                         <span class="formulario__erro"></span>
                     </div>
@@ -112,7 +116,7 @@
         </section>
     </footer>
 
-    <script src="./../js/validaFormulario.js"></script>
-    <script src="./../js/validaLogin.js"></script>
+    <script src="./../js/validarFormularios.js" type="module"></script>
+    <script src="./../js/login.js" type="module"></script>
 </body>
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,38 +15,45 @@
     <link href="../assets/css/header-footer.css" rel="stylesheet">
     <link href="../assets/css/novoProduto.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="cabecalho">
         <div class="cabecalho__container">
-            <a class="cabecalho__logo" href="./index.html"><img src="./../assets/img/Logo.svg" alt="Logo do Alura Geek"></a>
+            <a class="cabecalho__logo" href="./index.html"><img src="./../assets/img/Logo.svg"
+                    alt="Logo do Alura Geek"></a>
             <a class="cabecalho__botao-login botao-estilo_01" href="./pages/login.html">Menu administrador</a>
             <div class="cabecalho__pesquisa">
                 <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?">
                 <img class="pesquisa__icone" src="./../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
-            </div>  
+            </div>
         </div>
     </header>
 
     <main>
         <section class="novo-produto container">
             <h2 class="novo-produto__titulo titulo">Adicionar novo produto</h2>
-            <form class="novo-produto__formulario" action="">
+            <form class="novo-produto__formulario" data-form-novo-produto>
                 <div>
-                    <input class="formulario__input" type="text" placeholder="URL da imagem">
+                    <input name="url" class="formulario__input input" type="text" placeholder="URL da imagem" required  data-form-input>
+                    <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <input class="formulario__input" type="text" placeholder="Categoria">
+                    <input name="categoria" class="formulario__input input" type="text" placeholder="Categoria" required data-form-input>
+                    <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <input class="formulario__input" type="text" placeholder="Nome do produto">
+                    <input name="produto" class="formulario__input input" type="text" placeholder="Nome do produto" maxlength="20" required data-form-input>
+                    <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <input class="formulario__input" type="text" placeholder="Preço do produto">
+                    <input name="preco" class="formulario__input input" type="number" placeholder="Preço do produto" required data-form-input>
+                    <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <textarea class="formulario__textarea" type="text" placeholder="Descrição do produto"></textarea>
+                    <textarea name="descrição" class="formulario__textarea input" type="text" placeholder="Descrição do produto" maxlength="150" required data-form-input></textarea>
+                    <span class="formulario__erro"></span>
                 </div>
-                <input class="formulario__botao-adicionar botao-estilo_02" type="submit" value="Adicionar produto">
+                <input class="formulario__botao-adicionar botao-estilo_02" type="submit" value="Adicionar produto" data-adicionar-produto>
             </form>
         </section>
     </main>
@@ -65,16 +73,16 @@
             </section>
             <section class="rodape__contato">
                 <h2 class="contato__titulo titulo">Fale conosco</h2>
-                <form class="contato__formulario" action="">
+                <form class="contato__formulario">
                     <div>
-                        <input class="formulario__input" type="text" placeholder="Nome">
-                        <span></span>
+                        <input name="nome" class="formulario__nome" type="text" placeholder="Nome" minlength="3" maxlength="40" required data-form-input>
+                        <span class="formulario__erro"></span>
                     </div>
                     <div>
-                        <textarea class="formulario__textarea" type="text" placeholder="Escreva sua mensagem"></textarea>
-                        <span></span>
+                        <textarea name="mensagem" class="formulario__mensagem" type="text" placeholder="Escreva sua mensagem" minlength="10" maxlength="120" required data-form-input></textarea>
+                        <span class="formulario__erro"></span>
                     </div>
-                    <input class="formulario__submit botao-estilo_02" type="submit" value="Enviar mensagem">
+                    <input class="botao-estilo_02" type="submit" value="Enviar mensagem" data-enviar-mensagem>
                 </form>
             </section>
         </div>
@@ -83,5 +91,9 @@
             <p class="desenvolvedor__ano">2023</p>
         </section>
     </footer>
+
+    <script src="./../js/validarFormularios.js" type="module"></script>
+    <script src="./../js/novoProduto.js" type="module"></script>
 </body>
+
 </html>
