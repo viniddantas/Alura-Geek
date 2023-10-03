@@ -13,8 +13,11 @@
 .produto__apresentacao {
     position: relative;
 }
+.produtos__item {
+    width: calc((100vw - 3rem)/2);  
+}
 .produto__imagem {
-    width: calc((100vw - 3rem)/2);
+    width: 100%;  
 }
 .produto__alterar {
     position: absolute;
