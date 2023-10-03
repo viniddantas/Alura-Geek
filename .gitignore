@@ -1,0 +1,15 @@
+# Dependências do Node.js
+node_modules/
+
+# Arquivos temporários
+.DS_Store
+.vscode/
+.idea/
+
+# Arquivos de build
+dist/
+build/
+
+# Variáveis de ambiente
+.env
+.env.local
