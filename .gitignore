@@ -1,5 +1,7 @@
 # Dependências do Node.js
 node_modules/
+package.json
+package-lock.json
 
 # Arquivos temporários
 .DS_Store
@@ -13,3 +15,4 @@ build/
 # Variáveis de ambiente
 .env
 .env.local
+

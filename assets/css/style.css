@@ -46,13 +46,18 @@
     padding-left: 0.2rem
 }
 .produtos__lista{
+    width: -moz-fit-content;
+    width: fit-content;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
 }
-.produto__imagem {
+.produtos__item {
     width: calc((100vw - 3rem)/2);  
+}
+.produto__imagem {
+    width: 100%;  
 }
 .produto__informacoes {
     line-height: 1.375rem;
@@ -90,6 +95,9 @@
         gap: 1rem;
         justify-content: space-between;
     }
+    .produtos__item {
+        width: 150px
+    }
     .produto__imagem {
         width: 100%
     }
@@ -110,7 +118,8 @@
         justify-content: space-between;
     }
     .produto__imagem {
-        width: 100%
+        width: 150px;
+        height: 150px;
     }
     .categoria__ver-tudo {
         font-size: 1rem;
