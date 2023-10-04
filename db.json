@@ -1,60 +1,68 @@
 {
-    "produtos": [
-        {
-            "id": 1,
-            "url": "https://user-images.githubusercontent.com/87505409/272405204-e776edb3-fab4-4edf-8d05-dca3fb76bc53.png",
-            "categoria": "Consoles",
-            "nome": "Controle Xbox One",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        },
-        {
-            "id": 2,
-            "url": "https://user-images.githubusercontent.com/87505409/272405207-aa6d891e-4464-44ae-91cf-32493d037859.png",
-            "categoria": "Consoles",
-            "nome": "Playstation 5",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        },
-        {
-            "id": 3,
-            "url": "https://user-images.githubusercontent.com/87505409/272405277-cf3f00cb-a88c-4463-91fa-0780114a5a4a.png",
-            "categoria": "Diversos",
-            "nome": "Camiseta Atari",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        },
-        {
-            "id": 4,
-            "url": "https://user-images.githubusercontent.com/87505409/272405294-3ae834ca-2566-4593-8942-fe7522de7a80.png",
-            "categoria": "Diversos",
-            "nome": "Boneco Sonic",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        },
-        {
-            "id": 5,
-            "url": "https://user-images.githubusercontent.com/87505409/272405643-4383e3d0-5450-4ed1-9672-e25846c9930c.png",
-            "categoria": "Star Wars",
-            "nome": "Lego Darth Vader",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        },
-        {
-            "id": 6,
-            "url": "https://user-images.githubusercontent.com/87505409/272405639-e6550af3-a92f-4d7d-b92d-adf0df6028a6.png",
-            "categoria": "Star Wars",
-            "nome": "Action Figure Forças Jedy",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        },
-        {
-            "id": 6,
-            "url": "https://user-images.githubusercontent.com/87505409/272405636-1519b049-221c-475f-8960-e4cf72f3d818.png",
-            "categoria": "Star Wars",
-            "nome": "Mestre Yoda",
-            "preco": "R$60,00",
-            "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-        }
-    ]
+  "produtos": [
+    {
+      "id": 1,
+      "url": "https://user-images.githubusercontent.com/87505409/272405204-e776edb3-fab4-4edf-8d05-dca3fb76bc53.png",
+      "categoria": "Consoles",
+      "nome": "Controle Xbox One",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 2,
+      "url": "https://user-images.githubusercontent.com/87505409/272405207-aa6d891e-4464-44ae-91cf-32493d037859.png",
+      "categoria": "Consoles",
+      "nome": "Playstation 5",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 3,
+      "url": "https://user-images.githubusercontent.com/87505409/272405277-cf3f00cb-a88c-4463-91fa-0780114a5a4a.png",
+      "categoria": "Diversos",
+      "nome": "Camiseta Atari",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 4,
+      "url": "https://user-images.githubusercontent.com/87505409/272405294-3ae834ca-2566-4593-8942-fe7522de7a80.png",
+      "categoria": "Diversos",
+      "nome": "Boneco Sonic",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 5,
+      "url": "https://user-images.githubusercontent.com/87505409/272405643-4383e3d0-5450-4ed1-9672-e25846c9930c.png",
+      "categoria": "Star Wars",
+      "nome": "Lego Darth Vader",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 6,
+      "url": "https://user-images.githubusercontent.com/87505409/272405639-e6550af3-a92f-4d7d-b92d-adf0df6028a6.png",
+      "categoria": "Star Wars",
+      "nome": "Action Figure Forças Jedy",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "id": 7,
+      "url": "https://user-images.githubusercontent.com/87505409/272405636-1519b049-221c-475f-8960-e4cf72f3d818.png",
+      "categoria": "Star Wars",
+      "nome": "Mestre Yoda",
+      "preco": "60,00",
+      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1615465502839-71d5974f5087?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+      "categoria": "Diversos",
+      "nome": "Mario 8bit",
+      "preco": "25,00",
+      "descricao": "Traga para casa toda a magia do Reino dos Cogumelos com nosso Boneco de Pelúcia Super Mario - Edição Especial.",
+      "id": 8
+    }
+  ]
 }
