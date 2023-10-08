@@ -9,12 +9,14 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
+    width: -moz-fit-content;
+    width: fit-content;
 }
 .produto__apresentacao {
     position: relative;
 }
 .produtos__item {
-    width: calc((100vw - 3rem)/2);  
+    width: 136px  
 }
 .produto__imagem {
     width: 100%;  
@@ -27,6 +29,25 @@
 .produto__alterar {
     display: flex;
     gap: 1rem;
+}
+
+.produto__deletar {
+    cursor: pointer;
+    width: 14px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    background-image: url("./../img/icones/lixeira.svg");
+    background-repeat: no-repeat;
+}
+.produto__editar {
+    cursor: pointer;
+    width: 18px;
+    height: 19px;
+    background-color: transparent;
+    border: none;
+    background-image: url("./../img/icones/editar.svg");
+    background-repeat: no-repeat;
 }
 
 .produto__informacoes {
@@ -54,9 +75,11 @@
 
     /*Produtos*/
     .produtos__lista{
-        flex-wrap: nowrap;
         gap: 1rem;
         justify-content: space-between;
+    }
+    .produtos__item {
+        width: 147.7px  
     }
     .produto__imagem {
         width: 100%

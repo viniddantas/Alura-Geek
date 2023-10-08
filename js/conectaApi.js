@@ -25,6 +25,21 @@ async function criaProduto(url, categoria, nome, preco, descricao) {
     return conexaoConvertida
 }
 
+async function deletaProduto(id) {
+    const conexao = await fetch(`http://localhost:3000/produtos/${id}`, {
+        method: "DELETE",
+    }).then(response => response.json())
+    .then(data => {
+        console.log(data);
+        alert("Produto deletado");
+    });
+    
+    const conexaoConvertida = await conexao.json()
+
+    return conexaoConvertida
+}
+
+
 export const conectaApi = {
-    listaProdutos, criaProduto
+    listaProdutos, criaProduto, deletaProduto,
 }

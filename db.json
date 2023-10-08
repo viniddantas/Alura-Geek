@@ -9,14 +9,6 @@
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
-      "id": 2,
-      "url": "https://user-images.githubusercontent.com/87505409/272405207-aa6d891e-4464-44ae-91cf-32493d037859.png",
-      "categoria": "Consoles",
-      "nome": "Playstation 5",
-      "preco": "60,00",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-    },
-    {
       "id": 3,
       "url": "https://user-images.githubusercontent.com/87505409/272405277-cf3f00cb-a88c-4463-91fa-0780114a5a4a.png",
       "categoria": "Diversos",
@@ -55,14 +47,6 @@
       "nome": "Mestre Yoda",
       "preco": "60,00",
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-    },
-    {
-      "url": "https://images.unsplash.com/photo-1615465502839-71d5974f5087?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-      "categoria": "Diversos",
-      "nome": "Mario 8bit",
-      "preco": "25,00",
-      "descricao": "Traga para casa toda a magia do Reino dos Cogumelos com nosso Boneco de Pelúcia Super Mario - Edição Especial.",
-      "id": 8
     }
   ]
 }

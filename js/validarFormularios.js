@@ -1,4 +1,4 @@
-function validarFormularios(campo) {
+ function validarFormularios(campo) {
     const campoDeErro = campo.nextElementSibling;
     campoDeErro.textContent = ""
     

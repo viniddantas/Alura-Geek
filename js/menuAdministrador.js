@@ -15,18 +15,20 @@ function constroiCard (url, nome, preco, id) {
     
     produto.innerHTML = 
     `
-        <div class="produto__apresentacao">
-            <img class="produto__imagem" src="${url}" alt="">
-            <div class="produto__alterar">
-                <a href="#"><img src="./../assets/img/icones/lixeira.svg" alt="Icone excluir"></a>
-                <a href="#"><img src="./../assets/img/icones/editar.svg" alt="Icone editar"></a>
+        <div data-id="${id}">
+            <div class="produto__apresentacao">
+                <img class="produto__imagem" src="${url}" alt="">
+                <div class="produto__alterar">
+                    <button class="produto__deletar" data-botao-deletar></button>
+                    <button class="produto__editar" data-botao-editar></button>
+                </div>
             </div>
+            <div class="produto__informacoes">
+                <p class="produto__nome">${nome}</p>
+                <h3 class="produto__preco">R$ ${preco}</h3>
+                <p class="produto__codigo">#${id}</p>
+            </div>  
         </div>
-        <div class="produto__informacoes">
-            <p class="produto__nome">${nome}</p>
-            <h3 class="produto__preco">${preco}</h3>
-            <p class="produto__codigo">#${id}</p>
-        </div>  
     `
     return produto
 }
@@ -41,3 +43,21 @@ async function listaProdutos() {
 }
 
 listaProdutos()
+
+lista.addEventListener("click", (event) => {
+    const botaoExcluir = event.target.closest("[data-botao-deletar]");
+    if (botaoExcluir) {
+        const id = botaoExcluir.closest("[data-id]").dataset.id;
+        conectaApi.deletaProduto(id);
+    }
+
+    // if (event.target.classList.contains("produto__deletar")) {
+        
+    //     const id = document.querySelector([`data-id=${id}`])
+    //     console.log(id)
+    // }
+
+    // if (event.target.classList.contains("produto__editar")) {
+    //     //codigo
+    // }
+});
