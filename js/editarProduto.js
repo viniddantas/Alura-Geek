@@ -5,31 +5,7 @@ const formulario = document.querySelector("[data-form-novo-produto]");
 const campos = document.querySelectorAll("[data-form-input]");
 const campoPreco = document.getElementById('preco');
 
-var parametros = new URLSearchParams(window.location.search);
-var dadosCodificados = parametros.get('dados');
-var dados = JSON.parse(decodeURIComponent(dadosCodificados));
-
-colocaDados()
-
-function colocaDados(){
-
-    
-    if (dados && window.location.href.includes("editarProduto")) {
-        console.log("Pagina certa")
-        campos.forEach((campo) => {
-            campo.name == "url" ? campo.value = dados.url : ""
-            campo.name == "categoria" ? campo.value = dados.categoria : ""
-            campo.name == "produto" ? campo.value = dados.produto : ""
-            campo.name == "preco" ? campo.value = dados.preco : ""
-            campo.name == "descricao" ? campo.value = dados.descricao : ""
-        })
-        //conectaApi.editaProduto(dados.id, dados)
-    } else {
-        console.log("false")
-    }
-}
-
-formulario.addEventListener("submit",  (evento) => {
+formulario.addEventListener("submit", (evento) => {
     evento.preventDefault();
 
     const valoresDosCampos = {};
@@ -41,15 +17,8 @@ formulario.addEventListener("submit",  (evento) => {
     
     valoresDosCampos.preco = valoresDosCampos.preco.replace(/^R\$ /, '');
 
-    if(window.location.href.includes("novoProduto")) {
-        criarProduto(valoresDosCampos)
-    } else if(window.location.href.includes("editarProduto")) {
-        console.log(dados);
-        conectaApi.editaProduto(dados.id, valoresDosCampos)
-        window.location.href = "../pages/menuAdministrador.html"
-    }
-    
-    
+    criarProduto(valoresDosCampos)
+
     console.log(valoresDosCampos);
 });
 
@@ -63,11 +32,11 @@ async function criarProduto(valoresDosCampos) {
 
     const url = valoresDosCampos.url
     const categoria = valoresDosCampos.categoria
-    const produto = valoresDosCampos.produto
+    const nome = valoresDosCampos.produto
     const preco = valoresDosCampos.preco
     const descricao = valoresDosCampos.descricao
 
-    await conectaApi.criaProduto(url, categoria, produto, preco, descricao)
+    await conectaApi.criaProduto(url, categoria, nome, preco, descricao)
 
     window.location.href = "../pages/envioConcluido.html"
 }
@@ -94,4 +63,3 @@ campoPreco.addEventListener('input', (event) => {
     // Define o valor do input formatado
     event.target.value = inputValue;
 });
-

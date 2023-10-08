@@ -38,26 +38,27 @@ async function listaProdutos() {
     const listaApi = await conectaApi.listaProdutos()
     console.log(listaApi)
     listaApi.forEach(elemento => {
-        lista.appendChild(constroiCard(elemento.url, elemento.nome, elemento.preco, elemento.id))
+        lista.appendChild(constroiCard(elemento.url, elemento.produto, elemento.preco, elemento.id))
     })
 }
 
 listaProdutos()
 
-lista.addEventListener("click", (event) => {
+
+lista.addEventListener("click", async(event) => {
     const botaoExcluir = event.target.closest("[data-botao-deletar]");
+    const botaoEditar = event.target.closest("[data-botao-editar]");
     if (botaoExcluir) {
         const id = botaoExcluir.closest("[data-id]").dataset.id;
         conectaApi.deletaProduto(id);
     }
-
-    // if (event.target.classList.contains("produto__deletar")) {
-        
-    //     const id = document.querySelector([`data-id=${id}`])
-    //     console.log(id)
-    // }
-
-    // if (event.target.classList.contains("produto__editar")) {
-    //     //codigo
-    // }
+    if (botaoEditar) {
+        const id = botaoEditar.closest("[data-id]").dataset.id;
+        //console.log(id)
+        const dados = await conectaApi.buscaVideo(id)
+        //console.log(dados)
+        var dadosCodificados = encodeURIComponent(JSON.stringify(dados));
+        window.location.href = '/pages/editarProduto.html?dados=' + dadosCodificados;
+    }
+    
 });

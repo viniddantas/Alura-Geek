@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek - Novo Produto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link href="../assets/css/reset.css" rel="stylesheet">
+    <link href="../assets/css/base.css" rel="stylesheet">
+    <link href="../assets/css/header-footer.css" rel="stylesheet">
+    <link href="../assets/css/novoProduto.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__container">
+            <a class="cabecalho__logo" href="./../index.html"><img src="./../assets/img/Logo.svg"
+                    alt="Logo do Alura Geek"></a>
+            <a class="cabecalho__botao-login botao-estilo_01" href="./pages/login.html">Menu administrador</a>
+            <div class="cabecalho__pesquisa">
+                <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?">
+                <img class="pesquisa__icone" src="./../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="novo-produto container">
+            <h2 class="novo-produto__titulo titulo">Editar produto</h2>
+            <form class="novo-produto__formulario" data-form-novo-produto>
+                <div>
+                    <input name="url" class="formulario__input input" type="text" placeholder="URL da imagem" required  data-form-input>
+                    <span class="formulario__erro"></span>
+                </div>
+                <div>
+                    <input name="categoria" class="formulario__input input" type="text" placeholder="Categoria" required data-form-input>
+                    <span class="formulario__erro"></span>
+                </div>
+                <div>
+                    <input name="produto" class="formulario__input input" type="text" placeholder="Nome do produto" maxlength="20" required data-form-input>
+                    <span class="formulario__erro"></span>
+                </div>
+                <div>
+                    <input name="preco" class="formulario__input input" id="preco" type="text" placeholder="Preço do produto" required data-form-input>
+                    <span class="formulario__erro"></span>
+                </div>
+                <div>
+                    <textarea name="descricao" class="formulario__textarea input" type="text" placeholder="Descrição do produto" maxlength="150" required data-form-input></textarea>
+                    <span class="formulario__erro"></span>
+                </div>
+                <input class="formulario__botao-adicionar botao-estilo_02" type="submit" value="Salvar alterações" data-adicionar-produto>
+            </form>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape__container container">
+            <section class="rodape__sobre">
+                <img class="rodape__imagem" src="./../assets/img/Logo.svg" alt="Logo da Alura Geek">
+                <ul class="rodape__lista">
+                    <li class="lista__item">Quem somos nós</li>
+                    <li class="lista__item">Política de privacidade</li>
+                    <li class="lista__item">Programa fidelidade</li>
+                    <li class="lista__item">Nossas lojas</li>
+                    <li class="lista__item">Quero ser franqueado</li>
+                    <li class="lista__item">Anuncie aqui</li>
+                </ul>
+            </section>
+            <section class="rodape__contato">
+                <h2 class="contato__titulo titulo">Fale conosco</h2>
+                <form class="contato__formulario">
+                    <div>
+                        <input name="nome" class="formulario__nome" type="text" placeholder="Nome" minlength="3" maxlength="40" required data-form-input>
+                        <span class="formulario__erro"></span>
+                    </div>
+                    <div>
+                        <textarea name="mensagem" class="formulario__mensagem" type="text" placeholder="Escreva sua mensagem" minlength="10" maxlength="120" required data-form-input></textarea>
+                        <span class="formulario__erro"></span>
+                    </div>
+                    <input class="botao-estilo_02" type="submit" value="Enviar mensagem" data-enviar-mensagem>
+                </form>
+            </section>
+        </div>
+        <section class="rodape__desenvolvedor">
+            <p class="desenvolvedor__nome">Desenvolvido por Vinícius Domingues Dantas</p>
+            <p class="desenvolvedor__ano">2023</p>
+        </section>
+    </footer>
+
+    <script src="./../js/validarFormularios.js" type="module"></script>
+    <script src="./../js/novoProduto.js" type="module"></script>
+</body>
+
+</html>
