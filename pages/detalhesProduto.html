@@ -26,8 +26,8 @@
     </header>
 
     <main>
-        <section class="detalhes container">
-            <img class="detalhes__imagem" src="./../assets/img/produtos/star-wars/item-01.png" alt="">
+        <section class="detalhes container" data-produto>
+            <!-- <img class="detalhes__imagem" src="./../assets/img/produtos/star-wars/item-01.png" alt="">
             <div class="detalhes__container">
                 <h2 class="detalhes__nome">Produto XYZ</h2>
                 <h3 class="detalhes__preco">R$ 60,00</h3>
@@ -37,43 +37,11 @@
                     do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. 
                     Animi porta anim magnam
                 </p>
-            </div>
+            </div> -->
         </section>
         <section class="produtos-similiares container">
             <h2 class="produtos-similiares__titulo titulo">Produtos similiares</h2>
-            <ul class="produtos__lista">
-                <li class="produtos__item">
-                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-01.png" alt="">
-                    <div class="produto__informacoes">
-                        <p class="produto__nome">Produto XYZ</p>
-                        <h3 class="produto__preco">R$ 60,00</h3>
-                        <a class="produto__link" href="#">Ver produto</a>  
-                    </div>  
-                </li>
-                <li class="produtos__item">
-                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-02.png" alt="">
-                    <div class="produto__informacoes">
-                        <p class="produto__nome">Produto XYZ</p>
-                        <h3 class="produto__preco">R$ 60,00</h3>
-                        <a class="produto__link" href="#">Ver produto</a>
-                    </div>
-                </li>
-                <li class="produtos__item">
-                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-03.png" alt="">
-                    <div class="produto__informacoes">
-                        <p class="produto__nome">Produto XYZ</p>
-                        <h3 class="produto__preco">R$ 60,00</h3>
-                        <a class="produto__link" href="#">Ver produto</a>
-                    </div>
-                </li>
-                <li class="produtos__item">
-                    <img class="produto__imagem" src="../assets/img/produtos/star-wars/item-04.png" alt="">
-                    <div class="produto__informacoes">
-                        <p class="produto__nome">Produto XYZ</p>
-                        <h3 class="produto__preco">R$ 60,00</h3>
-                        <a class="produto__link" href="#">Ver produto</a>
-                    </div>
-                </li>
+            <ul class="produtos__lista" data-produtos-similiares>
             </ul>
         </section>
     </main>
@@ -111,5 +79,7 @@
             <p class="desenvolvedor__ano">2023</p>
         </section>
     </footer>
+
+    <script src="../js/controller/detalhaProduto-controller.js" type="module"></script>
 </body>
 </html>

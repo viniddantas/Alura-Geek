@@ -42,7 +42,7 @@
                     <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <input name="produto" class="formulario__input input" type="text" placeholder="Nome do produto" maxlength="20" required data-form-input>
+                    <input name="nome" class="formulario__input input" type="text" placeholder="Nome do produto" maxlength="20" required data-form-input>
                     <span class="formulario__erro"></span>
                 </div>
                 <div>
@@ -75,11 +75,11 @@
                 <h2 class="contato__titulo titulo">Fale conosco</h2>
                 <form class="contato__formulario">
                     <div>
-                        <input name="nome" class="formulario__nome" type="text" placeholder="Nome" minlength="3" maxlength="40" required data-form-input>
+                        <input name="nome" class="formulario__nome" type="text" placeholder="Nome" minlength="3" maxlength="40" requiredt>
                         <span class="formulario__erro"></span>
                     </div>
                     <div>
-                        <textarea name="mensagem" class="formulario__mensagem" type="text" placeholder="Escreva sua mensagem" minlength="10" maxlength="120" required data-form-input></textarea>
+                        <textarea name="mensagem" class="formulario__mensagem" type="text" placeholder="Escreva sua mensagem" minlength="10" maxlength="120" required></textarea>
                         <span class="formulario__erro"></span>
                     </div>
                     <input class="botao-estilo_02" type="submit" value="Enviar mensagem" data-enviar-mensagem>
@@ -93,7 +93,7 @@
     </footer>
 
     <script src="./../js/validarFormularios.js" type="module"></script>
-    <script src="./../js/novoProduto.js" type="module"></script>
+    <script src="./../js/controller/atualizaProduto-controller.js" type="module"></script>
 </body>
 
 </html>

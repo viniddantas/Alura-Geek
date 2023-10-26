@@ -74,6 +74,10 @@
     font-size: 0.875rem;
     font-weight: 700;
     text-decoration: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 
