@@ -19,25 +19,17 @@
         <div class="cabecalho__container">
             <a class="cabecalho__logo" href="./../index.html"><img src="../assets/img/Logo.svg" alt="Logo do Alura Geek"></a>
             <div class="cabecalho__pesquisa">
-                <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?">
-                <img class="pesquisa__icone" src="./../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
-            </div>  
+                <div class="pesquisa__campo" id="campoPesquisa">
+                    <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?" data-botao-busca>
+                    <img class="pesquisa__icone" src="../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+                </div> 
+                <ul class="pesquisa__lista" data-produtos-pesquisa></ul>
+            </div>
         </div>
     </header>
 
     <main>
         <section class="detalhes container" data-produto>
-            <!-- <img class="detalhes__imagem" src="./../assets/img/produtos/star-wars/item-01.png" alt="">
-            <div class="detalhes__container">
-                <h2 class="detalhes__nome">Produto XYZ</h2>
-                <h3 class="detalhes__preco">R$ 60,00</h3>
-                <p class="detalhes__descricao">Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus
-                    , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al
-                    iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo
-                    do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. 
-                    Animi porta anim magnam
-                </p>
-            </div> -->
         </section>
         <section class="produtos-similiares container">
             <h2 class="produtos-similiares__titulo titulo">Produtos similiares</h2>
@@ -63,14 +55,32 @@
                 <h2 class="contato__titulo titulo">Fale conosco</h2>
                 <form class="contato__formulario" action="">
                     <div>
-                        <input class="formulario__input" type="text" placeholder="Nome">
-                        <span></span>
+                        <input 
+                            name="cliente"
+                            class="formulario__nome" 
+                            type="text" 
+                            placeholder="Nome" 
+                            minlength="3"
+                            maxlength="40"
+                            required
+                            data-form-input
+                        >
+                        <span class="formulario__erro"></span>
                     </div>
                     <div>
-                        <textarea class="formulario__textarea" type="text" placeholder="Escreva sua mensagem"></textarea>
-                        <span></span>
+                        <textarea 
+                            name="mensagem"
+                            class="formulario__mensagem" 
+                            type="text" 
+                            placeholder="Escreva sua mensagem" 
+                            minlength="10"
+                            maxlength="120"
+                            required
+                            data-form-input
+                        ></textarea>
+                        <span class="formulario__erro"></span>
                     </div>
-                    <input class="formulario__submit botao-estilo_02" type="submit" value="Enviar mensagem">
+                    <input class="botao-estilo_02" type="submit" value="Enviar mensagem" data-enviar-mensagem>
                 </form>
             </section>
         </div>
@@ -80,6 +90,7 @@
         </section>
     </footer>
 
+    <script src="../js/validarFormularioContato.js" type="module"></script>
     <script src="../js/controller/detalhaProduto-controller.js" type="module"></script>
 </body>
 </html>

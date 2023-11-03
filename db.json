@@ -47,6 +47,46 @@
       "preco": "60,00",
       "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habit",
       "id": 11
+    },
+    {
+      "nome": "Console nintendinho",
+      "url": "https://user-images.githubusercontent.com/87505409/272405199-75547d93-e247-4b06-ae19-a06d6c70128d.png",
+      "categoria": "Consoles",
+      "preco": "1200",
+      "descricao": "O Nintendo Entertainment System, comumente conhecido como NES ou Nintendinho, é um console de videogame de 8 bits lançado pela Nintendo. Ele foi inicialmente lançado no Japão em 1983 como o Family Computer (Famicom) e mais tarde foi redesenhado e lançado na América do Norte como NES em 1985. O NES é considerado um dos consoles de videogame mais influentes e bem-sucedidos da história, marcando o início da era moderna dos videogames domésticos.",
+      "id": 12
+    },
+    {
+      "nome": "Controle Nintendo",
+      "url": "https://user-images.githubusercontent.com/87505409/272405202-fe6e121a-e679-4336-90c1-c01a69a34c02.png",
+      "categoria": "Consoles",
+      "preco": "400",
+      "descricao": "\nO controle do Nintendo Switch, conhecido como Joy-Con, é uma parte essencial do sistema híbrido de videogame da Nintendo. Ele foi projetado para oferecer versatilidade e flexibilidade aos jogadores, podendo ser usado tanto em modo portátil quanto no modo de console de mesa.",
+      "id": 13
+    },
+    {
+      "nome": "Playstation 5",
+      "url": "https://user-images.githubusercontent.com/87505409/272405207-aa6d891e-4464-44ae-91cf-32493d037859.png",
+      "categoria": "Consoles",
+      "preco": "4299",
+      "descricao": "O PlayStation 5, comumente conhecido como PS5, é a mais recente geração de consoles de videogame da Sony Interactive Entertainment. Lançado mundialmente em novembro de 2020, o PS5 representa um salto significativo em termos de poder de processamento, gráficos avançados e experiências de jogo imersivas.",
+      "id": 14
+    },
+    {
+      "nome": "Xbox Series X",
+      "url": "https://m.media-amazon.com/images/I/51A41nLe5IL._AC_SX679_.jpg",
+      "categoria": "Consoles",
+      "preco": "4389",
+      "descricao": "Apresentamos o xbox series x, nosso console mais rápido e poderoso de todos os tempos; jogue milhares de títulos de quatro gerações de consoles- todos os jogos têm melhor aparência e são melhor executados no xbox series x; no coração do series x está a xbox velocity architecture, que combina um ssd personalizado e software integrado para diminuir significativamente os tempos de carregamento dentro e fora do jogo; troque simultaneamente entre vários jogos em um instante com o quick resume; ",
+      "id": 15
+    },
+    {
+      "nome": "Controle Playstation",
+      "url": "https://www.impressora.com.br/media/catalog/product/cache/4/image/1032x/9df78eab33525d08d6e5fb8d27136e95/c/o/controle_frente.png",
+      "categoria": "Consoles",
+      "preco": "379",
+      "descricao": "controle para Xbox Series X Xbox Series S - Xbox One X sem Fio Carbon Black Preto Experimente o design modernizado do Controle Sem Fio para Xbx Series X/S Carbon Black na cor preta, com superfícies esculpidas e geometria refinada para maior conforto durante o jogo. Fique no alvo com o grip texturizado e um direcional híbrido. Capture e compartilhe conteúdo perfeitamente com um botão Compartilhar dedicado. Conecte-se, jogue e alterne rapidamente entre dispositivos, incluindo Xbox Series X, Xbox S",
+      "id": 17
     }
   ]
 }

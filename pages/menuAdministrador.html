@@ -19,9 +19,12 @@
         <div class="cabecalho__container">
             <a class="cabecalho__logo" href="./../index.html"><img src="../assets/img/Logo.svg" alt="Logo do Alura Geek"></a>
             <div class="cabecalho__pesquisa">
-                <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?">
-                <img class="pesquisa__icone" src="./../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
-            </div>  
+                <div class="pesquisa__campo" id="campoPesquisa">
+                    <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?" data-botao-busca>
+                    <img class="pesquisa__icone" src="../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+                </div> 
+                <ul class="pesquisa__lista" data-produtos-pesquisa></ul>
+            </div>
         </div>
     </header>
     <main>
@@ -53,7 +56,7 @@
                 <form class="contato__formulario" action="">
                     <div>
                         <input 
-                            name="nome"
+                            name="cliente"
                             class="formulario__nome" 
                             type="text" 
                             placeholder="Nome" 
@@ -87,7 +90,7 @@
         </section>
     </footer>
 
-    <script src="./../js/validarFormularios.js" type="module"></script>
+    <script src="./../js/validarFormularioContato.js" type="module"></script>
     <script src="./../js/controller/admin-controller.js" type="module"></script>
 </body>
 </html>

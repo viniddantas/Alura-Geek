@@ -1,4 +1,4 @@
-import validarFormularios  from "./validarFormularios.js";
+import validarFormularios  from "./validarFormularioContato.js";
 import { conectaApi } from "./conectaApi.js"
 
 const campos = document.querySelectorAll("[data-form-input]");

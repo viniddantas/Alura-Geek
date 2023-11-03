@@ -21,10 +21,13 @@
         <div class="cabecalho__container">
             <a class="cabecalho__logo" href="./../index.html"><img src="./../assets/img/Logo.svg"
                     alt="Logo do Alura Geek"></a>
-            <a class="cabecalho__botao-login botao-estilo_01" href="./pages/login.html">Menu administrador</a>
+            <a class="cabecalho__botao-login botao-estilo_01" href="./menuAdministrador.html">Menu administrador</a>
             <div class="cabecalho__pesquisa">
-                <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?">
-                <img class="pesquisa__icone" src="./../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+                <div class="pesquisa__campo" id="campoPesquisa">
+                    <input class="pesquisa__input" type="search" placeholder="O que deseja encontrar?" data-botao-busca>
+                    <img class="pesquisa__icone" src="../assets/img/Icone-buscador.svg" alt="Logo do Alura Geek">
+                </div> 
+                <ul class="pesquisa__lista" data-produtos-pesquisa></ul>
             </div>
         </div>
     </header>
@@ -42,7 +45,7 @@
                     <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <input name="nome" class="formulario__input input" type="text" placeholder="Nome do produto" maxlength="20" required data-form-input>
+                    <input name="nome" class="formulario__input input" type="text" placeholder="Nome do produto" maxlength="40" required data-form-input>
                     <span class="formulario__erro"></span>
                 </div>
                 <div>
@@ -50,7 +53,7 @@
                     <span class="formulario__erro"></span>
                 </div>
                 <div>
-                    <textarea name="descricao" class="formulario__textarea input" type="text" placeholder="Descrição do produto" maxlength="150" required data-form-input></textarea>
+                    <textarea name="descricao" class="formulario__textarea input" type="text" placeholder="Descrição do produto" maxlength="500" required data-form-input></textarea>
                     <span class="formulario__erro"></span>
                 </div>
                 <input class="formulario__botao-adicionar botao-estilo_02" type="submit" value="Adicionar produto" data-adicionar-produto>
@@ -75,7 +78,7 @@
                 <h2 class="contato__titulo titulo">Fale conosco</h2>
                 <form class="contato__formulario">
                     <div>
-                        <input name="nome" class="formulario__nome" type="text" placeholder="Nome" minlength="3" maxlength="40" required data-form-input>
+                        <input name="cliente" class="formulario__nome" type="text" placeholder="Nome" minlength="3" maxlength="40" required data-form-input>
                         <span class="formulario__erro"></span>
                     </div>
                     <div>
@@ -92,7 +95,7 @@
         </section>
     </footer>
 
-    <script src="./../js/validarFormularios.js" type="module"></script>
+    <script src="./../js/validarFormularioContato.js" type="module"></script>
     <script src="./../js/controller/cadastraProduto-controller.js" type="module"></script>
 </body>
 

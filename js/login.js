@@ -1,13 +1,5 @@
-import validarFormularios  from "./validarFormularios.js";
-
-const campos = document.querySelectorAll("[data-form-input]");
-
 const formularioLogin = document.querySelector("[data-form-login]")
 const campoDeErroLogin = document.querySelector("[data-login-invalido]")
-
-campos.forEach((campo) => {
-    campo.addEventListener("blur", () => validarFormularios(campo))
-});
 
 formularioLogin.addEventListener("submit", (evento) => {
     evento.preventDefault();

@@ -41,7 +41,7 @@
         <section class="produtos container">
             <div class="produtos__categoria">
                 <h2 class="categoria__titulo titulo">Star Wars</h2>
-                <a class="categoria__ver-tudo" href="./pages/produtos.html">Ver tudo</a>
+                <a class="categoria__ver-tudo" href="./pages/produtos.html?categoria=Star Wars">Ver tudo</a>
             </div>
             <ul class="produtos__lista" data-lista-starwars>
                 <!-- Produtos Star Wars -->
@@ -50,7 +50,7 @@
         <section class="produtos container" id="consoles">
             <div class="produtos__categoria">
                 <h2 class="categoria__titulo titulo">Consoles</h2>
-                <a class="categoria__ver-tudo" href="./pages/produtos.html"">Ver tudo</a>
+                <a class="categoria__ver-tudo" href="./pages/produtos.html?categoria=Consoles">Ver tudo</a>
             </div>
             <ul class="produtos__lista" data-lista-consoles>
                 <!-- Produtos Consoles -->
@@ -59,7 +59,7 @@
         <section class="produtos container">
             <div class="produtos__categoria">
                 <h2 class="categoria__titulo titulo">Diversos</h2>
-                <a class="categoria__ver-tudo" href="./pages/produtos.html"">Ver tudo</a>
+                <a class="categoria__ver-tudo" href="./pages/produtos.html?categoria=Diversos">Ver tudo</a>
             </div>
             <ul class="produtos__lista" data-lista-diversos>
                 <!-- Produtos Diversos -->
@@ -85,7 +85,7 @@
                 <form class="contato__formulario" action="">
                     <div>
                         <input 
-                            name="nome"
+                            name="cliente"
                             class="formulario__nome" 
                             type="text" 
                             placeholder="Nome" 
@@ -120,11 +120,8 @@
     </footer>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- <script src="./js/validarFormularios.js" type="module"></script>
-    <script src="./js/busca.js" type="module"></script>
-    <script src="./js/index.js" type="module"></script>  -->
 
-    <script src="./js/validarFormularios.js" type="module"></script>
+    <script src="./js/validarFormularioContato.js" type="module"></script>
     <script src="./js/controller/listaProduto-controller.js" type="module"></script>
     <script src="./js/controller/pesquisa-controller.js" type="module"></script>
 

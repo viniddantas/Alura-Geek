@@ -1,20 +1,9 @@
-function validarFormularios(campo) {
-    const campoDeErro = campo.nextElementSibling;
-    campoDeErro.textContent = ""
-    
-    tiposDeErro.forEach((erro) => {
-        if (campo.validity[erro]) {
-            campoDeErro.textContent = mensagens[campo.name][erro];
-        }
-    });
-}
-
 const tiposDeErro = [
     'valueMissing',
     'tooLong',
     'tooShort',
     'typeMismatch'
-];
+]
 
 const mensagens = {
     email: {
@@ -46,7 +35,6 @@ const mensagens = {
     },
     nome: {
         valueMissing: "O campo de nome não pode estar vazio.",
-        tooLong: "O nome é muito grande.",
         tooShort: "Por favor, preencha um nome válido.",
     },
     mensagem: {
@@ -54,7 +42,29 @@ const mensagens = {
         tooLong: "O campo de mensagem deve conter no máximo 300 caracteres",
         tooShort: "O campo de mensagem não tem caractéres suficientes.",
     },
+    cliente: {
+        valueMissing: "O campo de nome não pode estar vazio.",
+        tooLong: "O nome é muito grande.",
+        tooShort: "Por favor, preencha um nome válido.",
+    },
     
+}
+
+const camposDeContato = document.querySelectorAll("[data-form-input]")
+
+camposDeContato.forEach((campo) => {
+    campo.addEventListener('blur', () => validarFormularios(campo))
+})
+
+function validarFormularios(campo) {
+    const campoDeErro = campo.nextElementSibling;
+    campoDeErro.textContent = ""
+    
+    tiposDeErro.forEach((erro) => {
+        if (campo.validity[erro]) {
+            campoDeErro.textContent = mensagens[campo.name][erro];
+        }
+    });
 }
 
 export default validarFormularios
