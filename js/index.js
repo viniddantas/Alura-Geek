@@ -22,41 +22,6 @@ listas.forEach((lista) => {
     })
 })
 
-
-
 campos.forEach((campo) => {
     campo.addEventListener("blur", () => validarFormularios(campo))
 });
-
-export default function constroiCard (id, url, nome, preco) {
-    const produto = document.createElement("li")
-    produto.className = "produtos__item"
-    
-    produto.innerHTML = 
-    `   
-        <div data-id="${id}">
-            <img class="produto__imagem" src="${url}" alt="${nome}">
-            <div class="produto__informacoes">
-                <p class="produto__nome">${nome}</p>
-                <h3 class="produto__preco">R$ ${preco}</h3>
-                <button class="produto__link" data-detalhes>Ver produto</button>  
-            </div>  
-        </div>
-    `
-    return produto
-}
-
-async function listaProdutos() {
-    const listaApi = await conectaApi.listaProdutos()
-    listaApi.forEach(elemento => {
-        if(elemento.categoria == 'Consoles') {
-            consoles.appendChild(constroiCard(elemento.id, elemento.url, elemento.produto, elemento.preco))
-        } else if (elemento.categoria == 'Star Wars') {
-            starwars.appendChild(constroiCard(elemento.id, elemento.url, elemento.produto, elemento.preco))
-        } else if (elemento.categoria == 'Diversos') {
-            diversos.appendChild(constroiCard(elemento.id, elemento.url, elemento.produto, elemento.preco))
-        }
-    })
-}
-
-listaProdutos()

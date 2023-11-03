@@ -65,10 +65,22 @@ const detalhaProduto = async (id) => {
     throw new Error('Não foi possível listar o produtos especificado')
 }
 
+const pesquisaProduto = async (valor) => {
+    const resposta = await fetch(`${apiLink}`)
+    if(resposta.ok) {
+        const elementos = await resposta.json()
+        return elementos.filter(elemento => {
+            return elemento.nome.toLowerCase().includes(valor.toLowerCase())
+        })
+    }
+    throw new Error('Não foi possível pesquisar pelo produto')
+}
+
 export const produtoService = {
     listaProdutos,
     criaProduto,
     deletaProduto,
     editaProduto,
-    detalhaProduto
+    detalhaProduto,
+    pesquisaProduto
 }

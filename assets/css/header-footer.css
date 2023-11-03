@@ -11,8 +11,11 @@
 }
 .cabecalho__botao-login {
     flex: 0 1 133px;
-    margin: 0 1rem;
+    margin-left: 1rem;
     text-align: center;
+}
+.cabecalho__pesquisa {
+    display: none;
 }
 .pesquisa__input {
     display: none;
@@ -98,7 +101,14 @@
         order: 1;
     }
     .cabecalho__pesquisa {
+        display: block;
+        position: relative;
+        width: 40%;
+    }
+    .pesquisa__campo {
         display: flex;
+        /* border-radius: 1rem; */
+        border: 1px solid #8f8f8f35;
         border-radius: 20px;
         justify-content: center;
         align-items: center;
@@ -109,9 +119,8 @@
         display: block;
         font-family: 'Raleway', sans-serif;
         box-sizing: content-box;
-        border: none;
-        padding: 1rem;
         border-radius: 20px;
+        padding: 1rem;
         width: 100%;
         background-color: #F5F5F5;
         font-weight: 400;
@@ -119,6 +128,35 @@
     .pesquisa__icone {
         padding: 0 1rem 0 1rem;
     }
+
+    .pesquisa__lista {
+        position: absolute;
+        width: 100%;
+        background-color: #F5F5F5;
+        border-radius: 0 0 18px 18px;
+    }
+
+    .lista-item__link {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #8f8f8f35; 
+        padding: .375rem;
+        text-decoration: none;
+    }
+    .lista-item__link:hover {
+        background-color: #EEE;
+    }
+    .lista-item__imagem {
+        border-radius: .5rem;
+        width: 50px;
+        margin-right: .5rem;
+    }
+    .lista-item__titulo {
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
 
     /*Footer*/
     .rodape__container {
