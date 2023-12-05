@@ -1,4 +1,4 @@
-const apiLink = 'http://localhost:3000/produtos'
+const apiLink = '../../db.json'
 
 const listaProdutos = async () => {
     const resposta = await fetch(`${apiLink}`)
