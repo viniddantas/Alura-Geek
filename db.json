@@ -1,92 +1,252 @@
 {
   "produtos": [
-    {
-      "nome": "Camiseta Atari",
-      "url": "https://user-images.githubusercontent.com/87505409/272405277-cf3f00cb-a88c-4463-91fa-0780114a5a4a.png",
-      "categoria": "Diversos",
-      "preco": "10",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": 3
-    },
-    {
-      "nome": "Darth Vader",
-      "url": "https://user-images.githubusercontent.com/87505409/272405643-4383e3d0-5450-4ed1-9672-e25846c9930c.png",
-      "categoria": "Star Wars",
-      "preco": "60,00",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": 4
-    },
-    {
-      "id": 5,
-      "url": "https://user-images.githubusercontent.com/87505409/272405639-e6550af3-a92f-4d7d-b92d-adf0df6028a6.png",
-      "categoria": "Star Wars",
-      "nome": "Action Figure Forças Jedy",
-      "preco": "60,00",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
-    },
-    {
-      "url": "https://user-images.githubusercontent.com/87505409/272405636-1519b049-221c-475f-8960-e4cf72f3d818.png",
-      "categoria": "Star Wars",
-      "nome": "Mestre Yoda",
-      "preco": "60,00",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": 6
-    },
-    {
-      "url": "https://user-images.githubusercontent.com/87505409/272405294-3ae834ca-2566-4593-8942-fe7522de7a80.png",
-      "categoria": "Diversos",
-      "nome": "Sonic",
-      "preco": "60,00",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": 10
-    },
-    {
-      "url": "https://user-images.githubusercontent.com/87505409/272405204-e776edb3-fab4-4edf-8d05-dca3fb76bc53.png",
-      "categoria": "Consoles",
-      "nome": "Controle Xbox One",
-      "preco": "60,00",
-      "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habit",
-      "id": 11
-    },
-    {
-      "nome": "Console nintendinho",
-      "url": "https://user-images.githubusercontent.com/87505409/272405199-75547d93-e247-4b06-ae19-a06d6c70128d.png",
-      "categoria": "Consoles",
-      "preco": "1200",
-      "descricao": "O Nintendo Entertainment System, comumente conhecido como NES ou Nintendinho, é um console de videogame de 8 bits lançado pela Nintendo. Ele foi inicialmente lançado no Japão em 1983 como o Family Computer (Famicom) e mais tarde foi redesenhado e lançado na América do Norte como NES em 1985. O NES é considerado um dos consoles de videogame mais influentes e bem-sucedidos da história, marcando o início da era moderna dos videogames domésticos.",
-      "id": 12
-    },
-    {
-      "nome": "Controle Nintendo",
-      "url": "https://user-images.githubusercontent.com/87505409/272405202-fe6e121a-e679-4336-90c1-c01a69a34c02.png",
-      "categoria": "Consoles",
-      "preco": "400",
-      "descricao": "\nO controle do Nintendo Switch, conhecido como Joy-Con, é uma parte essencial do sistema híbrido de videogame da Nintendo. Ele foi projetado para oferecer versatilidade e flexibilidade aos jogadores, podendo ser usado tanto em modo portátil quanto no modo de console de mesa.",
-      "id": 13
-    },
-    {
-      "nome": "Playstation 5",
-      "url": "https://user-images.githubusercontent.com/87505409/272405207-aa6d891e-4464-44ae-91cf-32493d037859.png",
-      "categoria": "Consoles",
-      "preco": "4299",
-      "descricao": "O PlayStation 5, comumente conhecido como PS5, é a mais recente geração de consoles de videogame da Sony Interactive Entertainment. Lançado mundialmente em novembro de 2020, o PS5 representa um salto significativo em termos de poder de processamento, gráficos avançados e experiências de jogo imersivas.",
-      "id": 14
-    },
-    {
-      "nome": "Xbox Series X",
-      "url": "https://m.media-amazon.com/images/I/51A41nLe5IL._AC_SX679_.jpg",
-      "categoria": "Consoles",
-      "preco": "4389",
-      "descricao": "Apresentamos o xbox series x, nosso console mais rápido e poderoso de todos os tempos; jogue milhares de títulos de quatro gerações de consoles- todos os jogos têm melhor aparência e são melhor executados no xbox series x; no coração do series x está a xbox velocity architecture, que combina um ssd personalizado e software integrado para diminuir significativamente os tempos de carregamento dentro e fora do jogo; troque simultaneamente entre vários jogos em um instante com o quick resume; ",
-      "id": 15
-    },
-    {
-      "nome": "Controle Playstation",
-      "url": "https://www.impressora.com.br/media/catalog/product/cache/4/image/1032x/9df78eab33525d08d6e5fb8d27136e95/c/o/controle_frente.png",
-      "categoria": "Consoles",
-      "preco": "379",
-      "descricao": "controle para Xbox Series X Xbox Series S - Xbox One X sem Fio Carbon Black Preto Experimente o design modernizado do Controle Sem Fio para Xbx Series X/S Carbon Black na cor preta, com superfícies esculpidas e geometria refinada para maior conforto durante o jogo. Fique no alvo com o grip texturizado e um direcional híbrido. Capture e compartilhe conteúdo perfeitamente com um botão Compartilhar dedicado. Conecte-se, jogue e alterne rapidamente entre dispositivos, incluindo Xbox Series X, Xbox S",
-      "id": 17
-    }
-  ]
+  {
+    "nome": "Boneco Mestre Yoda",
+    "url": "https://images.unsplash.com/photo-1624313603844-dda78ecf39b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=998&q=80",
+    "preco": "89,99",
+    "categoria": "Star Wars",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "3"
+  },
+  {
+    "nome": "Boneco Stormtrooper",
+    "url": "https://images.unsplash.com/photo-1599719500956-d158a26ab3ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+    "preco": "79,99",
+    "categoria": "Star Wars",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "4"
+  },
+  {
+    "nome": "Boneco Grogu",
+    "url": "https://images.unsplash.com/photo-1601814933824-fd0b574dd592?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1112&q=80",
+    "alt": "Boneco Grogu.",
+    "preco": "99,99",
+    "categoria": "Star Wars",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "5"
+  },
+  {
+    "nome": "Controle Xbox",
+    "url": "https://images.unsplash.com/photo-1603565913235-382c62d3b2ee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+    "preco": "239,99",
+    "categoria": "consoles",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "7"
+  },
+  {
+    "nome": "Play 5 com Controle",
+    "url": "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=627&q=80",
+    "alt": "Play 5 com Controle.",
+    "preco": "2499,99",
+    "categoria": "consoles",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "8"
+  },
+  {
+    "nome": "Console Nintendo",
+    "url": "https://images.unsplash.com/photo-1533702165324-66678e2069b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "alt": "Console Nintendo.",
+    "preco": "599,99",
+    "categoria": "consoles",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "9"
+  },
+  {
+    "nome": "Controle Joy-Con",
+    "url": "https://images.unsplash.com/photo-1617096200347-cb04ae810b1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "alt": "Controle Joy-Con.",
+    "preco": "169,99",
+    "categoria": "consoles",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "10"
+  },
+  {
+    "nome": "Console Xbox XS",
+    "url": "https://images.unsplash.com/photo-1621259182181-1ccb9ec306cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1212&q=80",
+    "alt": "Console Xbox XS.",
+    "price": "2899,99",
+    "category": "consoles",
+    "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "quantity": 111111,
+    "id": "11"
+  },
+  {
+    "nome": "Gameboy Retro",
+    "url": "https://images.unsplash.com/photo-1577583113753-ca7e95d1bdc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "alt": "Gameboy Retro.",
+    "preco": "39,99",
+    "categoria": "consoles",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "12"
+  },
+  {
+    "nome": "Camisa Atari",
+    "url": "https://images.unsplash.com/photo-1589021818993-a1223f8f0f04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1045&q=80",
+    "alt": "Camisa Atari.",
+    "preco": "39,99",
+    "categoria": "diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "13"
+  },
+  {
+    "nome": "Camisa Snes",
+    "url": "https://images.unsplash.com/photo-1554410637-1a8267402b57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "alt": "Camisa Snes.",
+    "preco": "39,99",
+    "categoria": "diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "14"
+  },
+  {
+    "nome": "Boneco Sonic",
+    "url": "https://images.unsplash.com/photo-1550747545-c896b5f89ff7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1167&q=80",
+    "alt": "Boneco Sonic.",
+    "preco": "65,99",
+    "categoria": "diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "15"
+  },
+  {
+    "nome": "Rádio Analógico",
+    "url": "https://images.unsplash.com/photo-1611946258523-9c2bfabb94e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1071&q=80",
+    "alt": "Rádio Analógico.",
+    "preco": "199,99",
+    "categoria": "diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "16"
+  },
+  {
+    "nome": "Óculos VR",
+    "url": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "alt": "Óculos VR.",
+    "preco": "449,99",
+    "categoria": "diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "17"
+  },
+  {
+    "nome": "Pelúcia Pikachu",
+    "url": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "alt": "Pelúcia Pikachu.",
+    "preco": "60,00",
+    "categoria": "Diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "18"
+  },
+  {
+    "nome": "Teste 3",
+    "url": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "alt": "Teste.",
+    "preco": "79,99",
+    "categoria": "diversos",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": "21"
+  },
+  {
+    "nome": "Teste 1",
+    "url": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "alt": "alt 23",
+    "preco": "60,00",
+    "categoria": "Star Wars",
+    "descricao": "Teste",
+    "id": "23"
+  },
+  {
+    "nome": "Teste 55",
+    "url": "https://images.unsplash.com/photo-1609372332255-611485350f25?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+    "alt": "alt 24",
+    "preco": "61,99",
+    "categoria": "diversos",
+    "descricao": "Test teste",
+    "id": "24"
+  },
+  {
+    "nome": "Camiseta Atari",
+    "url": "https://user-images.githubusercontent.com/87505409/272405277-cf3f00cb-a88c-4463-91fa-0780114a5a4a.png",
+    "categoria": "Diversos",
+    "preco": "10",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": 27
+  },
+  {
+    "nome": "Darth Vader",
+    "url": "https://user-images.githubusercontent.com/87505409/272405643-4383e3d0-5450-4ed1-9672-e25846c9930c.png",
+    "categoria": "Star Wars",
+    "preco": "60,00",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": 28
+  },
+  {
+    "id": 29,
+    "url": "https://user-images.githubusercontent.com/87505409/272405639-e6550af3-a92f-4d7d-b92d-adf0df6028a6.png",
+    "categoria": "Star Wars",
+    "nome": "Action Figure Forças Jedy",
+    "preco": "60,00",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
+  },
+  {
+    "url": "https://user-images.githubusercontent.com/87505409/272405636-1519b049-221c-475f-8960-e4cf72f3d818.png",
+    "categoria": "Star Wars",
+    "nome": "Mestre Yoda",
+    "preco": "60,00",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": 30
+  },
+  {
+    "url": "https://user-images.githubusercontent.com/87505409/272405294-3ae834ca-2566-4593-8942-fe7522de7a80.png",
+    "categoria": "Diversos",
+    "nome": "Sonic",
+    "preco": "60,00",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi al iqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commo do, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+    "id": 31
+  },
+  {
+    "url": "https://user-images.githubusercontent.com/87505409/272405204-e776edb3-fab4-4edf-8d05-dca3fb76bc53.png",
+    "categoria": "Consoles",
+    "nome": "Controle Xbox One",
+    "preco": "60,00",
+    "descricao": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus , facilis fusce! Ullam conubia? Sociis, minima malesuada habit",
+    "id": 11
+  },
+  {
+    "nome": "Console nintendinho",
+    "url": "https://user-images.githubusercontent.com/87505409/272405199-75547d93-e247-4b06-ae19-a06d6c70128d.png",
+    "categoria": "Consoles",
+    "preco": "1200",
+    "descricao": "O Nintendo Entertainment System, comumente conhecido como NES ou Nintendinho, é um console de videogame de 8 bits lançado pela Nintendo. Ele foi inicialmente lançado no Japão em 1983 como o Family Computer (Famicom) e mais tarde foi redesenhado e lançado na América do Norte como NES em 1985. O NES é considerado um dos consoles de videogame mais influentes e bem-sucedidos da história, marcando o início da era moderna dos videogames domésticos.",
+    "id": 32
+  },
+  {
+    "nome": "Controle Nintendo",
+    "url": "https://user-images.githubusercontent.com/87505409/272405202-fe6e121a-e679-4336-90c1-c01a69a34c02.png",
+    "categoria": "Consoles",
+    "preco": "400",
+    "descricao": "\nO controle do Nintendo Switch, conhecido como Joy-Con, é uma parte essencial do sistema híbrido de videogame da Nintendo. Ele foi projetado para oferecer versatilidade e flexibilidade aos jogadores, podendo ser usado tanto em modo portátil quanto no modo de console de mesa.",
+    "id": 33
+  },
+  {
+    "nome": "Playstation 5",
+    "url": "https://user-images.githubusercontent.com/87505409/272405207-aa6d891e-4464-44ae-91cf-32493d037859.png",
+    "categoria": "Consoles",
+    "preco": "4299",
+    "descricao": "O PlayStation 5, comumente conhecido como PS5, é a mais recente geração de consoles de videogame da Sony Interactive Entertainment. Lançado mundialmente em novembro de 2020, o PS5 representa um salto significativo em termos de poder de processamento, gráficos avançados e experiências de jogo imersivas.",
+    "id": 34
+  },
+  {
+    "nome": "Xbox Series X",
+    "url": "https://m.media-amazon.com/images/I/51A41nLe5IL._AC_SX679_.jpg",
+    "categoria": "Consoles",
+    "preco": "4389",
+    "descricao": "Apresentamos o xbox series x, nosso console mais rápido e poderoso de todos os tempos; jogue milhares de títulos de quatro gerações de consoles- todos os jogos têm melhor aparência e são melhor executados no xbox series x; no coração do series x está a xbox velocity architecture, que combina um ssd personalizado e software integrado para diminuir significativamente os tempos de carregamento dentro e fora do jogo; troque simultaneamente entre vários jogos em um instante com o quick resume; ",
+    "id": 35
+  },
+  {
+    "nome": "Controle Playstation",
+    "url": "https://www.impressora.com.br/media/catalog/product/cache/4/image/1032x/9df78eab33525d08d6e5fb8d27136e95/c/o/controle_frente.png",
+    "categoria": "Consoles",
+    "preco": "379",
+    "descricao": "controle para Xbox Series X Xbox Series S - Xbox One X sem Fio Carbon Black Preto Experimente o design modernizado do Controle Sem Fio para Xbx Series X/S Carbon Black na cor preta, com superfícies esculpidas e geometria refinada para maior conforto durante o jogo. Fique no alvo com o grip texturizado e um direcional híbrido. Capture e compartilhe conteúdo perfeitamente com um botão Compartilhar dedicado. Conecte-se, jogue e alterne rapidamente entre dispositivos, incluindo Xbox Series X, Xbox S",
+    "id": 36
+  }
+]
 }
