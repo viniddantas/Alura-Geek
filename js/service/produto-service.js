@@ -1,4 +1,4 @@
-const apiLink = '../../db.json'
+const apiLink = 'https://mockapi.io/clone/656f9fd66529ec1c623814fc'
 
 const listaProdutos = async () => {
     const resposta = await fetch(`${apiLink}`)
