@@ -37,7 +37,7 @@ function constroiProdutosSimiliares(id, url, nome, preco) {
         <div class="produto__informacoes">
             <p class="produto__nome">${nome}</p>
             <h3 class="produto__preco">R$${preco}</h3>
-            <a class="produto__link" href="../../pages/detalhesProduto.html?id=${id}">Ver produto</a>  
+            <a class="produto__link" href="./detalhesProduto.html?id=${id}">Ver produto</a>  
         </div>  
     `
     produtosSimiliares.dataset.id = id
