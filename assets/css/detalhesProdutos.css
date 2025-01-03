@@ -1,3 +1,8 @@
+.cabecalho__container {
+    height: 53px;;
+}
+
+
 .detalhes__imagem {
     display: block;
     max-width: 360px;
