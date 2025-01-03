@@ -17,7 +17,7 @@ listas.forEach((lista) => {
             const dados = await conectaApi.buscaVideo(id)
             var dadosCodificados = encodeURIComponent(JSON.stringify(dados));
             
-            window.location.href = '/pages/detalhesProduto.html?dados=' + dadosCodificados;
+            window.location.href = './pages/detalhesProduto.html?dados=' + dadosCodificados;
         }
     })
 })

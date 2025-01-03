@@ -46,6 +46,11 @@
     flex-wrap: wrap;
     gap: 1rem;
     justify-content: space-between;
+    overflow: hidden;
+}
+.produtos__item {
+    min-width: 150px;
+
 }
 .produto__imagem {
     width: calc((100vw - 3rem)/2);  
